@@ -1,7 +1,6 @@
-mod day1;
+mod day3;
 mod utils;
 
 fn main() {
-    let ans: i32 = day1::part2();
-    println!("{}", ans);
+    day3::exec(2);
 }
